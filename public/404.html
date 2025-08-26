@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dara Mustafa Portfolio</title>
+    <script>
+      // GitHub Pages SPA fallback
+      // Redirect any route to index.html for client-side routing
+      const path = window.location.pathname.replace('/dara_mustafa_portfolio', '');
+      const query = window.location.search;
+      const hash = window.location.hash;
+      window.location.replace('/dara_mustafa_portfolio/' + (path === '/' ? '' : path.slice(1)) + query + hash);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
