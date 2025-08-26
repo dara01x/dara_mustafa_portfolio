@@ -149,7 +149,7 @@ Passionate about building scalable applications and solve real-world problems.
           </div>
 
           {/* Right Side - Coding Visual (Second on mobile, right on desktop) */}
-          <div className="order-2 lg:order-2 relative animate-fade-up w-full max-w-xs sm:max-w-sm lg:max-w-none mx-auto lg:mx-0 scale-50 sm:scale-65 lg:scale-100" style={{ animationDelay: "0.3s" }}>
+          <div className="order-2 lg:order-2 relative animate-fade-up w-full max-w-xs sm:max-w-sm lg:max-w-none mx-auto lg:mx-0 scale-50 sm:scale-65 lg:scale-100 mb-8 sm:mb-12 lg:mb-0" style={{ animationDelay: "0.3s" }}>
             <div className="relative">
               {/* Main Terminal Window */}
               <div className="bg-card/90 dark:bg-card border border-border/50 dark:border-border rounded-2xl shadow-elegant backdrop-blur-sm transition-colors duration-300 overflow-hidden">

@@ -66,7 +66,7 @@ const experiences = [
   },
   {
     company: "Robotics and AI Club",
-    position: "Lead Programming Intern",
+    position: "Robotics & AI Development Lead",
     period: "April 2021 – November 2021",
     location: "University of Duhok",
     type: "Internship",

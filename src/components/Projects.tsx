@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Face Recognition Attendance System",
     description: "AI-powered attendance tracking system using computer vision and machine learning. Features Flask dashboard for attendance management and real-time recognition.",
-    image: "/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp",
+    image: "/dara_mustafa_portfolio/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp",
     technologies: ["Python", "Flask", "OpenCV", "Scikit-learn", "HTML/CSS", "SQLite"],
     features: [
       "Real-time face recognition",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Brainwave – SaaS Landing Page",
     description: "Modern, animated SaaS homepage design with performance optimization and stunning visual effects. Built with React and enhanced with smooth animations.",
-    image: "/project_images/brainwave.png",
+    image: "/dara_mustafa_portfolio/project_images/brainwave.png",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
     features: [
       "Modern SaaS design patterns",
@@ -39,7 +39,7 @@ const projects = [
   {
     title: "AI Image Generator App – DALL·E Clone",
     description: "Full-stack MERN application with OpenAI API integration for AI-powered image generation. Features secure image handling with Cloudinary and modern React interface. Project is private to the client site.",
-    image: "/project_images/ai_image genrator.jpg",
+    image: "/dara_mustafa_portfolio/project_images/ai_image genrator.jpg",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "OpenAI API", "Tailwind CSS", "Cloudinary"],
     features: [
       "OpenAI DALL·E API integration",
@@ -55,7 +55,7 @@ const projects = [
   {
     title: "Movie Search Engine",
     description: "Real-time movie search application with TMDB API integration. Features fast search with live suggestions and detailed movie information display.",
-    image: "/project_images/full-page.png",
+    image: "/dara_mustafa_portfolio/project_images/full-page.png",
     technologies: ["React", "Tailwind CSS", "TMDB API", "JavaScript", "Axios"],
     features: [
       "Real-time movie search",
@@ -71,7 +71,7 @@ const projects = [
   {
     title: "Iraqi Jordanian Company",
     description: "A responsive and professional company website built for the Iraqi Jordanian Company. Designed and developed a modern WordPress website to represent the company's services and brand.",
-    image: "/project_images/image.png",
+    image: "/dara_mustafa_portfolio/project_images/image.png",
     technologies: ["WordPress", "PHP", "JavaScript", "CSS", "HTML"],
     features: [
       "Customized theme and UI for clean, professional experience",
@@ -87,7 +87,7 @@ const projects = [
   {
     title: "Business Lounge Cafe – Digital Menu Website",
     description: "More than coffee, it's where business happens. Built a modern, responsive website featuring a digital menu with an elegant design and interactive menu system.",
-    image: "/project_images/menu.png",
+    image: "/dara_mustafa_portfolio/project_images/menu.png",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
     features: [
       "Interactive menu system for beverages, desserts, and hookah",
