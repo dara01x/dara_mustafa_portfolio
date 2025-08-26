@@ -61,6 +61,10 @@
   </head>
 
   <body>
+    <script>
+      // Ensure dark mode is applied immediately to prevent FOUC (Flash of Unstyled Content)
+      document.documentElement.classList.add('dark');
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
