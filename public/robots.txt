@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Social Media Crawlers
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap location (update this with your actual domain)
+Sitemap: https://daramustafa.dev/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Portfolio Design System - Dark Theme with Vibrant Accents */
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  :root, .dark {
+    /* Dark theme colors in HSL */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 7%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 7%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Vibrant blue primary */
+    --primary: 217 91% 60%;
+    --primary-foreground: 240 10% 3.9%;
+    --primary-glow: 217 91% 70%;
+
+    /* Subtle secondary */
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 0 0% 90%;
+
+    /* Muted grays */
+    --muted: 240 5% 10%;
+    --muted-foreground: 240 5% 60%;
+
+    /* Purple accent */
+    --accent: 270 91% 65%;
+    --accent-foreground: 240 10% 3.9%;
+    --accent-glow: 270 91% 75%;
+
+    /* Cyan secondary accent */
+    --cyan: 180 100% 70%;
+    --cyan-foreground: 240 10% 3.9%;
+    --cyan-glow: 180 100% 80%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5% 20%;
+    --input: 240 5% 15%;
+    --ring: 217 91% 60%;
+
+    /* Custom design tokens for dark mode */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--cyan)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(240 10% 8%) 50%, hsl(var(--background)) 100%);
+    
+    --shadow-glow-primary: 0 0 40px hsl(var(--primary) / 0.3);
+    --shadow-glow-accent: 0 0 40px hsl(var(--accent) / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  }
+
+  /* Optimized transitions for specific theme-changing elements only */
+  html {
+    color-scheme: dark;
+  }
+
+  /* Only apply transitions to elements that actually change between themes */
+  [data-theme] {
+    transition: background-color 0.3s ease-out, 
+                color 0.3s ease-out, 
+                border-color 0.3s ease-out;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  50% {
+    transform: translateY(-40px) translateX(-5px);
+  }
+  75% {
+    transform: translateY(-20px) translateX(-10px);
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+  opacity: 0;
+}
