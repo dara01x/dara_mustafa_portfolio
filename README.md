@@ -9,7 +9,7 @@
 
 **A modern, high-performance portfolio website showcasing full-stack development expertise**
 
-[🌐 **Live Demo**](https://www.daramustafa.me) • [📱 **Mobile Preview**](https://www.daramustafa.me) • [📧 **Contact Me**](mailto:daramustafam@gmail.com)
+[🌐 **Live Demo**](https://www.daramustafa.me) • [📧 **Contact Me**](mailto:daramustafam@gmail.com)
 
 </div>
 
@@ -136,174 +136,11 @@ This portfolio represents 5+ years of full-stack development experience, featuri
     └── 📋 .github/workflows/deploy.yml  # GitHub Actions CI/CD
 ```
 
-## 🚀 Quick Start
-
-### Prerequisites
-- **Node.js** 20+ (recommended) or 18+
-- **npm** 9+ or **yarn** 1.22+
-- **Git** for version control
-
-### Installation
-
-1. **Clone & Navigate**
-   ```bash
-   git clone https://github.com/dara01x/dara_mustafa_portfolio.git
-   cd dara_mustafa_portfolio
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Environment Setup** *(Optional - for contact form)*
-   ```bash
-   # Create environment file
-   cp .env.example .env.local
-   
-   # Add your EmailJS credentials
-   VITE_EMAILJS_SERVICE_ID=your_service_id
-   VITE_EMAILJS_TEMPLATE_ID=your_template_id
-   VITE_EMAILJS_PUBLIC_KEY=your_public_key
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-5. **Open in Browser**
-   ```
-   🌐 Local:   http://localhost:8080
-   📱 Network: http://[your-ip]:8080
-   ```
-
-### 🏗️ Build for Production
-
-```bash
-# Create optimized build
-npm run build
-
-# Preview production build locally
-npm run preview
-
-# Analyze bundle size
-npm run build && npx vite-bundle-analyzer dist/stats.html
-```
-
-## 📧 Contact Form Configuration
-
-### EmailJS Setup (Free Tier Available)
-
-1. **Create Account**: Visit [EmailJS.com](https://emailjs.com) and sign up
-2. **Add Email Service**: Connect your Gmail/Outlook account
-3. **Create Template**: Design your email template with variables
-4. **Get Credentials**: Copy Service ID, Template ID, and Public Key
-5. **Environment Variables**: Add credentials to your environment file
-
-### GitHub Secrets (For Production)
-
-In your GitHub repository settings, add these secrets:
-- `VITE_EMAILJS_SERVICE_ID`
-- `VITE_EMAILJS_TEMPLATE_ID`
-- `VITE_EMAILJS_PUBLIC_KEY`
-
-## 🌐 Deployment Options
-
-### GitHub Pages (Recommended)
-Automatic deployment via GitHub Actions:
-
-1. **Enable Pages**: Repository Settings → Pages → Source: GitHub Actions
-2. **Push to Main**: Deployment triggers automatically
-3. **Custom Domain**: Add `CNAME` file for custom domain
-
-### Vercel (Alternative)
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### Netlify (Alternative)
-```bash
-npm run build
-# Upload dist/ folder to Netlify
-```
-
-## � Performance Metrics
-
-- **Lighthouse Score**: 💯 Performance, 💯 Accessibility, 💯 Best Practices, 💯 SEO
-- **First Contentful Paint**: < 1.2s
-- **Largest Contentful Paint**: < 2.0s
-- **Cumulative Layout Shift**: < 0.1
-- **Bundle Size**: < 200KB (gzipped)
-
-## 🎨 Customization Guide
-
-### Theme Colors
-Edit `tailwind.config.ts` to customize the color palette:
-
-```typescript
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        primary: "hsl(var(--primary))",
-        secondary: "hsl(var(--secondary))",
-        accent: "hsl(var(--accent))",
-        // Add your custom colors
-      }
-    }
-  }
-}
-```
-
-### Adding New Sections
-1. Create component in `src/components/`
-2. Add to main layout in `src/pages/Index.tsx`
-3. Update navigation in `src/components/Navigation.tsx`
-
-### Project Showcase
-Update projects array in `src/components/Projects.tsx`:
-
-```typescript
-const projects = [
-  {
-    title: "Your Project",
-    description: "Project description",
-    image: "/project_images/your-image.jpg",
-    technologies: ["React", "TypeScript"],
-    github: "https://github.com/username/repo",
-    demo: "https://your-demo.com"
-  }
-];
-```
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. **Fork** the repository
-2. **Create** your feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Connect With Me
-
-<div align="center">
-
+##
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.daramustafa.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dara-mustafa)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dara01x)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daramustafam@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daramistefa30@gmail.com)
 
 </div>
 
