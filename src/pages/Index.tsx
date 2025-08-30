@@ -40,6 +40,14 @@ const Skills = loadable(() => import("@/components/Skills"), {
   </div>
 });
 
+const Clients = loadable(() => import("@/components/Clients"), {
+  fallback: <div className="w-full h-96 flex items-center justify-center">
+    <div className="animate-pulse">
+      <div className="w-8 h-8 bg-primary/20 rounded-full animate-bounce"></div>
+    </div>
+  </div>
+});
+
 const Contact = loadable(() => import("@/components/Contact"), {
   fallback: <div className="w-full h-96 flex items-center justify-center">
     <div className="animate-pulse">
@@ -70,6 +78,10 @@ const Index = () => {
         
         <LazySection sectionId="experience">
           <Experience />
+        </LazySection>
+        
+        <LazySection sectionId="clients">
+          <Clients />
         </LazySection>
         
         <LazySection sectionId="projects">
