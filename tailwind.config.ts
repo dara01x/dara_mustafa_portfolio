@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Montserrat', 'system-ui', 'sans-serif'],
+				sans: ['Poppins', 'system-ui', 'sans-serif'],
 				mono: ['JetBrains Mono', 'Consolas', 'Monaco', 'Courier New', 'monospace'],
 			},
 			colors: {
