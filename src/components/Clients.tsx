@@ -12,11 +12,7 @@ export const Clients = () => {
       logo: "/clients_logos/alpha-logo.png",
       category: "Technology"
     },
-    { 
-      name: "Apex Company", 
-      logo: "/clients_logos/Apex Logo no-bg copy.png",
-      category: "Business"
-    },
+    
     { 
       name: "Bussnise Lounge Cafe", 
       logo: "/clients_logos/Bussnise Lounge Cafe.png",
