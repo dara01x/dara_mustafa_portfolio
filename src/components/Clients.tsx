@@ -65,7 +65,7 @@ export const Clients = () => {
   ];
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-background relative z-[1]">
+    <section className="py-16 sm:py-20 lg:py-24 bg-card/80 relative z-[1]">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
