@@ -8,40 +8,9 @@ export const Clients = () => {
       category: "Education"
     },
     { 
-      name: "Alpha Company", 
-      logo: "/clients_logos/alpha-logo.png",
-      category: "Technology"
-    },
-    
-    { 
-      name: "Bussnise Lounge Cafe", 
-      logo: "/clients_logos/Bussnise Lounge Cafe.png",
-      category: "Hospitality"
-    },
-    { 
-      name: "Civic Company", 
-      logo: "/clients_logos/Civic Company.png",
-      category: "Civil Services"
-    },
-    { 
-      name: "Environment Eagle Company", 
-      logo: "/clients_logos/Environment Eagle Company.png",
-      category: "Environmental"
-    },
-    { 
-      name: "Ministry of Peshmerga Affairs", 
-      logo: "/clients_logos/Fixed_Emblem_of_the_Ministry_of_Peshmerga_Affairs.png",
-      category: "Government"
-    },
-    { 
-      name: "Huj Company", 
-      logo: "/clients_logos/Huj Company.png",
-      category: "Business"
-    },
-    { 
-      name: "Jehan Company", 
-      logo: "/clients_logos/Jehan logo white copy.png",
-      category: "Business"
+      name: "Saziware Company", 
+      logo: "/clients_logos/Saziware Company.png",
+      category: "Software Company"
     },
     { 
       name: "Ozkanlar Baskul Company", 
@@ -49,34 +18,49 @@ export const Clients = () => {
       category: "Industrial"
     },
     { 
-      name: "P2P Express", 
-      logo: "/clients_logos/P2P express.png",
-      category: "Logistics"
+      name: "Environment Eagle Company", 
+      logo: "/clients_logos/Environment Eagle Company.png",
+      category: "Environmental"
     },
     { 
-      name: "Parez Company", 
-      logo: "/clients_logos/Parez.png",
-      category: "Technology"
-    },
-    { 
-      name: "Peru Group", 
-      logo: "/clients_logos/Peru Group.png",
-      category: "Business"
-    },
-    { 
-      name: "Pexira Company", 
-      logo: "/clients_logos/Pexira.png",
-      category: "Technology"
-    },
-    { 
-      name: "Saziware Company", 
-      logo: "/clients_logos/Saziware Company.png",
-      category: "Software"
+      name: "Civic Company", 
+      logo: "/clients_logos/Civic Company.png",
+      category: "Civil Services"
     },
     { 
       name: "Shar Real Estate", 
       logo: "/clients_logos/Shar Real State.png",
       category: "Real Estate"
+    },
+    { 
+      name: "Ministry of Peshmerga Affairs", 
+      logo: "/clients_logos/Fixed_Emblem_of_the_Ministry_of_Peshmerga_Affairs.png",
+      category: "Government"
+    },
+    { 
+      name: "Jehan Company", 
+      logo: "/clients_logos/Jehan logo white copy.png",
+      category: "Advertisement"
+    },
+    { 
+      name: "P2P Express", 
+      logo: "/clients_logos/P2P express.png",
+      category: "Online Shopping App"
+    },
+    { 
+      name: "Pexira Company", 
+      logo: "/clients_logos/Pexira.png",
+      category: "Fitness App"
+    },
+    { 
+      name: "Huj Company", 
+      logo: "/clients_logos/Huj Company.png",
+      category: "Beauty Online Shop"
+    },
+    { 
+      name: "Business Lounge Cafe", 
+      logo: "/clients_logos/Bussnise Lounge Cafe.png",
+      category: "Coffee Shop"
     }
   ];
 
