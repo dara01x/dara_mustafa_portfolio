@@ -37,18 +37,18 @@ const projects = [
     status: "Completed"
   },
   {
-    title: "AI Image Generator App – DALL·E Clone",
-    description: "Full-stack MERN application with OpenAI API integration for AI-powered image generation. Features secure image handling with Cloudinary and modern React interface. Project is private to the client site.",
-    image: "/project_images/ai_image genrator.jpg",
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "OpenAI API", "Tailwind CSS", "Cloudinary"],
+    title: "Invonest – Professional Invoice Generator",
+    description: "A free invoice generator supporting English, Arabic, and Kurdish with full RTL/LTR formatting.",
+    image: "/project_images/invonest.png",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "jsPDF", "html2canvas"],
     features: [
-      "OpenAI DALL·E API integration",
-      "Secure image storage with Cloudinary",
-      "Real-time image generation",
-      "Responsive React interface"
+      "Built a responsive web app with real-time preview, PDF export, and custom branding.",
+      "Delivered multiple templates, dark/light mode, and one-click PDF download.",
+      "Full RTL/LTR support for multiple languages",
+      "Custom branding and professional templates"
     ],
     github: null,
-    demo: null,
+    demo: "https://invonest.me/",
     type: "Full-Stack",
     status: "Completed"
   },
@@ -261,7 +261,7 @@ export const Projects = () => {
                       className="flex-1 opacity-70 cursor-not-allowed border-muted text-muted-foreground hover:text-muted-foreground text-xs sm:text-sm"
                     >
                       <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-                      {project.title === "Business Lounge Cafe – Digital Menu Website" || project.title === "AI Image Generator App – DALL·E Clone" ? "Private Repository" : "Code Unavailable"}
+                      {project.title === "Business Lounge Cafe – Digital Menu Website" || project.title === "Invonest – Professional Invoice Generator" ? "Private Repository" : "Code Unavailable"}
                     </Button>
                   )}
                 </CardFooter>

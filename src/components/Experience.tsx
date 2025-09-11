@@ -10,11 +10,8 @@ const experiences = [
     location: "Duhok, Iraq",
     type: "Part-time",
     achievements: [
-      "Taught courses in Artificial Intelligence (AI), Frontend Development, and Digital Literacy",
-      "Designed and delivered structured lesson plans combining theory with hands-on projects",
-      "Mentored students individually and in groups on programming fundamentals",
-      "Delivered Python programming courses from beginner to advanced levels",
-      "Guided students through Game Development projects and modern technologies"
+      "Teach Visual Programming, Python (Starter & Pro), and Frontend Development through interactive, project-based learning.",
+      "Guide students in problem-solving, mentor them to build confidence, and design tailored lessons to strengthen coding and creativity skills."
     ],
     technologies: ["Python", "AI/ML", "React", "JavaScript", "Game Development", "Digital Literacy"],
     current: true
