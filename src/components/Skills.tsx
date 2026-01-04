@@ -7,6 +7,7 @@ import {
   SiMysql,
   SiCplusplus,
   SiReact,
+  SiNextdotjs,
   SiTailwindcss,
   SiHtml5,
   SiCss3,
@@ -20,7 +21,10 @@ import {
   SiSupabase,
   SiOpencv,
   SiScikitlearn,
+  SiPytorch,
+  SiTensorflow,
   SiOpenai,
+  SiMapbox,
   SiGit,
   SiDocker,
   SiPostman,
@@ -54,7 +58,10 @@ const skillCategories = [
     color: "accent",
     skills: [
       { name: "React", icon: SiReact, color: "#61DAFB" },
+      { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
+      { name: "Vite", icon: SiVite, color: "#646CFF" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+      { name: "shadcn/ui", icon: SiReact, color: "#FFFFFF" },
       { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
       { name: "CSS3", icon: SiCss3, color: "#1572B6" },
       { name: "Framer Motion", icon: SiFramer, color: "#0055FF" }
@@ -66,8 +73,8 @@ const skillCategories = [
     color: "cyan",
     skills: [
       { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
-      { name: "Express.js", icon: SiExpress, color: "#000000" },
-      { name: "Flask", icon: SiFlask, color: "#000000" }
+      { name: "Express.js", icon: SiExpress, color: "#FFFFFF" },
+      { name: "Flask", icon: SiFlask, color: "#FFFFFF" }
     ]
   },
   {
@@ -87,6 +94,8 @@ const skillCategories = [
     icon: Brain,
     color: "accent",
     skills: [
+      { name: "PyTorch", icon: SiPytorch, color: "#EE4C2C" },
+      { name: "TensorFlow", icon: SiTensorflow, color: "#FF6F00" },
       { name: "OpenCV", icon: SiOpencv, color: "#5C3EE8" },
       { name: "Scikit-learn", icon: SiScikitlearn, color: "#F7931E" },
       { name: "OpenAI", icon: SiOpenai, color: "#412991" }
@@ -100,6 +109,7 @@ const skillCategories = [
       { name: "Git", icon: SiGit, color: "#F05032" },
       { name: "Docker", icon: SiDocker, color: "#2496ED" },
       { name: "Postman", icon: SiPostman, color: "#FF6C37" },
+      { name: "Mapbox GL", icon: SiMapbox, color: "#4264FB" },
       { name: "WordPress", icon: SiWordpress, color: "#21759B" }
     ]
   },

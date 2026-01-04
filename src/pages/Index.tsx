@@ -80,12 +80,12 @@ const Index = () => {
           <Experience />
         </LazySection>
         
-        <LazySection sectionId="clients">
-          <Clients />
-        </LazySection>
-        
         <LazySection sectionId="projects">
           <Projects />
+        </LazySection>
+        
+        <LazySection sectionId="clients">
+          <Clients />
         </LazySection>
         
         <LazySection sectionId="skills">
