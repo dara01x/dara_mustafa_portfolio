@@ -10,8 +10,8 @@ interface SEOProps {
 
 export const SEO = ({
   title = "Dara Mustafa Saleem - Full Stack Developer | React, TypeScript, Node.js",
-  description = "Experienced Full Stack Developer specializing in React, TypeScript, Node.js, and modern web technologies. Based in Duhok, Iraq. Available for freelance projects and full-time opportunities.",
-  keywords = "Dara Mustafa, Full Stack Developer, React Developer, TypeScript, Node.js, JavaScript, Web Developer, Frontend, Backend, Duhok Iraq, Portfolio",
+  description = "Full-stack developer experienced in building scalable, user-focused web applications. Skilled in modern frontend and backend technologies, API integration, and clean, maintainable code. Strong contributor to agile teams, delivering reliable, production-ready solutions.",
+  keywords = "Dara Mustafa, Full Stack Developer, React Developer, TypeScript, Node.js, JavaScript, Python, Web Developer, Frontend, Backend, Duhok Iraq, Portfolio, AI/ML, PyTorch, Next.js",
   ogImage = "/og%20image.png",
   canonicalUrl = "https://daramustafa.dev/"
 }: SEOProps) => {

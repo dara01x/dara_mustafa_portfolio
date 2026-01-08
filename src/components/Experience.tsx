@@ -6,12 +6,12 @@ const experiences = [
   {
     company: "Algorithmic International School",
     position: "Programming Instructor",
-    period: "August 2025 – Present",
+    period: "September 2025 – Present",
     location: "Duhok, Iraq",
     type: "Part-time",
     achievements: [
-      "Teach Visual Programming, Python (Starter & Pro), and Frontend Development through interactive, project-based learning.",
-      "Guide students in problem-solving, mentor them to build confidence, and design tailored lessons to strengthen coding and creativity skills."
+      "I teach Visual Programming, Python, and Frontend Development through project-based learning",
+      "I mentor students to build problem-solving, coding, and creativity skills."
     ],
     technologies: ["Python", "AI/ML", "React", "JavaScript", "Game Development", "Digital Literacy"],
     current: true
@@ -23,10 +23,8 @@ const experiences = [
     location: "Duhok, Iraq",
     type: "Full-time",
     achievements: [
-      "Built scalable web applications with 95% specification alignment",
-      "Optimized application performance and reliability across multiple projects",
-      "Collaborated effectively in agile development teams",
-      "Delivered high-quality solutions within tight deadlines"
+      "Built and maintained scalable web apps, improving reliability and performance.",
+      "Translated UI/UX designs into functional interfaces with 92% accuracy."
     ],
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "TypeScript"],
     current: true
@@ -38,10 +36,8 @@ const experiences = [
     location: "Duhok, Iraq",
     type: "Internship",
     achievements: [
-      "Enhanced application usability through strategic API integration",
-      "Successfully delivered all sprint goals on schedule",
-      "Implemented responsive design patterns for mobile-first applications",
-      "Collaborated with cross-functional teams to define technical requirements"
+      "Enhanced usability by delivering new features and seamless API integrations.",
+      "Achieved 100% of sprint goals, contributing to on-time product releases."
     ],
     technologies: ["React", "PHP", "MySQL", "REST APIs", "CSS3"],
     current: false
@@ -49,29 +45,25 @@ const experiences = [
   {
     company: "Zeronex Agency",
     position: "Junior Software Developer",
-    period: "December 2021 – January 2024",
+    period: "December 2020 – December 2023",
     location: "Duhok, Iraq",
     type: "Full-time",
     achievements: [
-      "Maintained and enhanced legacy systems for improved stability",
-      "Implemented performance optimizations resulting in 30% faster load times",
-      "Contributed to scalability improvements across multiple client projects",
-      "Mentored new team members on best practices and coding standards"
+      "Maintained and modernized legacy systems, ensuring continuous stability.",
+      "Implemented performance upgrades that improved scalability and reduced downtime."
     ],
     technologies: ["JavaScript", "PHP", "WordPress", "MySQL", "jQuery"],
     current: false
   },
   {
     company: "Robotics and AI Club",
-    position: "Robotics & AI Development Lead",
-    period: "April 2021 – November 2021",
+    position: "Robotics & AI Engineering Intern",
+    period: "April 2020 – November 2020",
     location: "University of Duhok",
     type: "Internship",
     achievements: [
-      "Developed robotics control software with 25% efficiency improvement",
-      "Debugged real-time machine learning algorithms for autonomous systems",
-      "Led a team of 5 junior developers on robotics projects",
-      "Presented technical solutions to academic supervisors and industry partners"
+      "Built custom control software, boosting robotics task execution by 25%.",
+      "Debugged and optimized machine learning algorithms in real-time team projects."
     ],
     technologies: ["Python", "OpenCV", "Scikit-learn", "C++", "Arduino"],
     current: false

@@ -92,7 +92,7 @@ export const About = () => {
                 <h3 className="text-lg sm:text-xl font-semibold text-accent mb-2">Education</h3>
                 <p className="text-sm sm:text-base text-foreground/80">
                   <strong>B.Sc. Electrical & Computer Engineering</strong><br />
-                  University of Duhok, 2024
+                  University of Duhok, September 2020 – 2025
                 </p>
               </div>
               

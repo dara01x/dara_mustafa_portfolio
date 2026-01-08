@@ -17,7 +17,7 @@ export const projectsData: Project[] = [
   {
     slug: "face-recognition-attendance-system",
     title: "Face Recognition Attendance System",
-    description: "AI-powered attendance tracking system using computer vision and machine learning. Features Flask dashboard for attendance management and real-time recognition.",
+    description: "A facial recognition system to automate attendance using computer vision.",
     longDescription: "This comprehensive attendance management system leverages cutting-edge computer vision and machine learning technologies to automate the attendance tracking process. Built with Python and Flask, it provides real-time face recognition capabilities with high accuracy, making it ideal for educational institutions and corporate environments. The system includes an intuitive admin dashboard for managing attendance records, generating reports, and monitoring system performance.",
     image: "/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp",
     screenshots: [
@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
   {
     slug: "kurdray-xray-detection",
     title: "KurdRay — Chest X-ray AI Diagnostics",
-    description: "Sophisticated AI-powered diagnostic tool for predicting 14 common thoracic diseases from chest X-ray images using ensemble DenseNet-121 models with state-of-the-art accuracy.",
+    description: "AI-driven X-ray diagnostics project that identifies 14 conditions with probability scoring.",
     longDescription: "KurdRay is an advanced medical AI application that leverages a powerful ensemble of two high-performing DenseNet-121 models to detect 14 thoracic conditions from chest X-ray images. The system combines a custom-trained DenseNet-121 model (AUC 0.84) with the renowned Arnoweng CheXNet variant (AUC 0.85) to achieve an impressive ensemble AUC of approximately 0.87. The application features a futuristic web interface that provides detailed per-model probability breakdowns and uses hybrid diagnostic logic for optimal accuracy. It can detect conditions including Pneumonia, Cardiomegaly, Atelectasis, and 11 other thoracic abnormalities, making it a valuable tool for medical professionals and researchers in radiological diagnosis.",
     image: "/project_images/x-ray/homepage.png",
     screenshots: [
@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
   {
     slug: "hivi-hospital-management",
     title: "Hivi Hospital Management System",
-    description: "Comprehensive hospital management system built with React, TypeScript, and Firebase to streamline medical operations, patient care, and rare disease management for modern hospitals.",
+    description: "Hospital system for patient care, rare diseases, inventory, and reporting.",
     longDescription: "Hivi Hospital Management System is a full-featured healthcare platform designed to revolutionize hospital operations and patient care. Built with React 18, TypeScript, and Firebase, it provides specialized management for rare diseases including Gaucher, Pompe, Fabry, and MPS variants I-VII. The system features an intuitive role-based interface with five user roles (Admin, Doctor, Nurse, Receptionist, Pharmacist), complete bilingual support (English/Arabic with RTL), and comprehensive patient management including medical history, visit tracking, and dose administration. Advanced features include automated doctor notifications for upcoming visits, detailed analytics dashboard, audit logs for complete system activity tracking, inventory management, and professional PDF report generation. The system implements HIPAA-ready architecture with Firebase Authentication and granular permission controls, making it ideal for hospitals managing complex treatment protocols and rare disease care.",
     image: "/project_images/hivi-hospital/homepage.png",
     screenshots: [
@@ -101,7 +101,7 @@ export const projectsData: Project[] = [
   {
     slug: "fastaqar-portal-v2",
     title: "Fast Aqar",
-    description: "Modern real estate management portal built with Next.js 16 and Firebase, featuring advanced property and project management capabilities with interactive mapping.",
+    description: "Real estate portal for property/project management with Mapbox mapping.",
     longDescription: "Fast Aqar is a comprehensive real estate management system that combines modern web technologies with powerful backend services. Built with Next.js 16 and Firebase, it provides a complete solution for managing properties and real estate projects. The platform features an intuitive admin dashboard with role-based access control, interactive Mapbox GL integration for property visualization, and a public-facing browse interface for property discovery. The system includes automated image protection with watermarking, cloud functions for maintenance tasks, and dynamic configuration through app variables. This enterprise-grade solution is designed for real estate professionals who need robust property management tools with advanced mapping capabilities.",
     image: "/project_images/fastaqar/browse_page.png",
     screenshots: [
