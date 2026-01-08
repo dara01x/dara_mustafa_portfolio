@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+import { Skeleton } from '@/components/ui/skeleton';
 
 interface LazyImageProps {
   src: string;
@@ -52,6 +53,10 @@ export const LazyImage = ({
 
   return (
     <div ref={ref} className={`relative overflow-hidden ${className}`}>
+      {!isLoaded && !isError && (
+        <Skeleton className="absolute inset-0 w-full h-full" />
+      )}
+      
       <img
         ref={imgRef}
         src={imageSrc}
@@ -60,19 +65,12 @@ export const LazyImage = ({
         height={height}
         loading={loading}
         className={`transition-opacity duration-500 ${
-          isLoaded ? 'opacity-100' : 'opacity-70'
+          isLoaded ? 'opacity-100' : 'opacity-0'
         } ${className}`}
-        style={{
-          filter: isLoaded ? 'none' : 'blur(2px)',
-        }}
       />
       
-      {!isLoaded && !isError && (
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 animate-pulse" />
-      )}
-      
       {isError && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-100 text-gray-500">
+        <div className="absolute inset-0 flex items-center justify-center bg-muted text-muted-foreground">
           <div className="text-center">
             <div className="text-2xl mb-2">📷</div>
             <div className="text-sm">Failed to load image</div>

@@ -10,7 +10,8 @@ import {
   Linkedin, 
   Send,
   MessageCircle,
-  Download
+  Download,
+  Loader2
 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -324,9 +325,13 @@ export const Contact = () => {
                     type="submit"
                     size="lg"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-primary hover:shadow-glow-primary transition-all duration-300 group text-sm sm:text-base disabled:opacity-50"
+                    className="w-full bg-gradient-primary hover:shadow-glow-primary transition-all duration-300 group text-sm sm:text-base disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    <Send className="w-3 h-3 sm:w-4 sm:h-4 mr-2 transition-transform group-hover:translate-x-1" />
+                    {isSubmitting ? (
+                      <Loader2 className="w-3 h-3 sm:w-4 sm:h-4 mr-2 animate-spin" />
+                    ) : (
+                      <Send className="w-3 h-3 sm:w-4 sm:h-4 mr-2 transition-transform group-hover:translate-x-1" />
+                    )}
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                   </Button>
                 </form>
