@@ -43,9 +43,36 @@ export const Navigation = () => {
   }, []);
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
+    const sectionId = href.replace('#', '');
+    const element = document.getElementById(sectionId);
+    
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const offset = 80; // Navigation bar height
+      
+      // Function to perform the scroll with offset
+      const performScroll = () => {
+        const el = document.getElementById(sectionId);
+        if (el) {
+          const elementPosition = el.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - offset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      };
+      
+      // Initial scroll
+      performScroll();
+      
+      // Check multiple times to handle lazy loading
+      // This ensures content is loaded and position is corrected
+      const checkPositions = [150, 300, 500];
+      checkPositions.forEach(delay => {
+        setTimeout(performScroll, delay);
+      });
+      
       setIsMobileMenuOpen(false); // Close mobile menu after navigation
     }
   };

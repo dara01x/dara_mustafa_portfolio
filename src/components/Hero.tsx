@@ -9,14 +9,32 @@ export const Hero = () => {
   const scrollToSection = (href: string) => {
     const sectionId = href.replace('#', '');
     const element = document.getElementById(sectionId);
+    
     if (element) {
       const offset = 80; // Navigation bar height
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
+      
+      // Function to perform the scroll with offset
+      const performScroll = () => {
+        const el = document.getElementById(sectionId);
+        if (el) {
+          const elementPosition = el.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - offset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      };
+      
+      // Initial scroll
+      performScroll();
+      
+      // Check multiple times to handle lazy loading
+      // This ensures content is loaded and position is corrected
+      const checkPositions = [150, 300, 500];
+      checkPositions.forEach(delay => {
+        setTimeout(performScroll, delay);
       });
     }
   };

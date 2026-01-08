@@ -12,6 +12,24 @@ export const ProjectDetail = () => {
   
   const project = projectsData.find(p => p.slug === slug);
 
+  const handleBackToProjects = () => {
+    navigate('/');
+    // Wait for navigation to complete, then scroll to projects
+    setTimeout(() => {
+      const projectsSection = document.getElementById('projects');
+      if (projectsSection) {
+        const offset = 80;
+        const elementPosition = projectsSection.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+    }, 100);
+  };
+
   if (!project) {
     return (
       <div className="min-h-screen bg-background text-foreground flex items-center justify-center">
@@ -40,8 +58,8 @@ export const ProjectDetail = () => {
           {/* Back Button */}
           <Button 
             variant="ghost" 
-            onClick={() => navigate('/')}
-            className="mb-8 hover:bg-primary/10"
+            onClick={handleBackToProjects}
+            className="mb-8 hover:bg-primary/20 hover:text-white active:bg-primary/30 transition-colors duration-200"
           >
             <ArrowLeft className="mr-2 w-4 h-4" />
             Back to Projects

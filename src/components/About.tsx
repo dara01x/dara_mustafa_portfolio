@@ -11,7 +11,7 @@ export const About = () => {
     {
       icon: Rocket,
       title: "Full-Stack Expertise",
-      description: "Proficient in JavaScript, TypeScript, Python, PHP, SQL, React, Node.js, Express.js, and databases."
+      description: "Proficient in JavaScript, TypeScript, Python, SQL, React, Node.js, Express.js, and databases."
     },
     {
       icon: Users,
@@ -56,7 +56,7 @@ export const About = () => {
                       <div className="flex items-start gap-3">
                         <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-sm sm:text-base  font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                          Developing modern applications using <span className="text-accent font-bold ">JavaScript, TypeScript, Python, and PHP</span>
+                          Developing modern applications using <span className="text-accent font-bold ">JavaScript, TypeScript, and Python</span>
                         </p>
                       </div>
                       <div className="flex items-start gap-3">
@@ -101,8 +101,8 @@ export const About = () => {
                 <h3 className="text-lg sm:text-xl font-semibold text-primary mb-3">Languages</h3>
                 <div className="flex flex-wrap gap-2 sm:gap-3">
                   <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs sm:text-sm">Kurdish (Native)</span>
-                  <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs sm:text-sm">English (Fluent)</span>
-                  <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs sm:text-sm">Arabic (Fluent)</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs sm:text-sm">English (Professional Proficiency)</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-xs sm:text-sm">Arabic (Professional Proficiency)</span>
                 </div>
               </div>
             </div>
