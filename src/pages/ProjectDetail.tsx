@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, ExternalLink, Github, Calendar, Tag, Sparkles } from "lucide-react";
+import { ArrowLeft, ExternalLink, Github, Calendar, Tag, Sparkles, ChevronLeft, ChevronRight } from "lucide-react";
 import { SEO } from "@/components/SEO";
 import { Navigation } from "@/components/Navigation";
 import { projectsData } from "@/data/projects";
@@ -11,6 +11,9 @@ export const ProjectDetail = () => {
   const navigate = useNavigate();
   
   const project = projectsData.find(p => p.slug === slug);
+  const currentIndex = projectsData.findIndex(p => p.slug === slug);
+  const prevProject = currentIndex > 0 ? projectsData[currentIndex - 1] : null;
+  const nextProject = currentIndex < projectsData.length - 1 ? projectsData[currentIndex + 1] : null;
 
   const handleBackToProjects = () => {
     navigate('/');
@@ -239,6 +242,47 @@ export const ProjectDetail = () => {
             >
               Get in Touch
             </Button>
+          </div>
+
+          {/* Next/Previous Navigation */}
+          <div className="mt-12 flex justify-between items-center gap-4">
+            {prevProject ? (
+              <Button
+                variant="outline"
+                onClick={() => {
+                  navigate(`/project/${prevProject.slug}`);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="flex-1 max-w-xs hover:bg-primary/20 hover:text-white hover:border-primary/50 transition-colors group"
+              >
+                <ChevronLeft className="mr-2 w-4 h-4 group-hover:translate-x-[-4px] transition-transform" />
+                <div className="text-left flex-1">
+                  <div className="text-xs text-muted-foreground">Previous</div>
+                  <div className="font-semibold truncate">{prevProject.title}</div>
+                </div>
+              </Button>
+            ) : (
+              <div className="flex-1 max-w-xs" />
+            )}
+
+            {nextProject ? (
+              <Button
+                variant="outline"
+                onClick={() => {
+                  navigate(`/project/${nextProject.slug}`);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="flex-1 max-w-xs hover:bg-primary/20 hover:text-white hover:border-primary/50 transition-colors group"
+              >
+                <div className="text-right flex-1">
+                  <div className="text-xs text-muted-foreground">Next</div>
+                  <div className="font-semibold truncate">{nextProject.title}</div>
+                </div>
+                <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-[4px] transition-transform" />
+              </Button>
+            ) : (
+              <div className="flex-1 max-w-xs" />
+            )}
           </div>
         </div>
       </main>
