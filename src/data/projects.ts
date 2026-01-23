@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
     title: "KurdRay — Chest X-ray AI Diagnostics",
     description: "AI-driven X-ray diagnostics project that identifies 14 conditions with probability scoring.",
     longDescription: "KurdRay is an advanced medical AI application that leverages a powerful ensemble of two high-performing DenseNet-121 models to detect 14 thoracic conditions from chest X-ray images. The system combines a custom-trained DenseNet-121 model (AUC 0.84) with the renowned Arnoweng CheXNet variant (AUC 0.85) to achieve an impressive ensemble AUC of approximately 0.87. The application features a futuristic web interface that provides detailed per-model probability breakdowns and uses hybrid diagnostic logic for optimal accuracy. It can detect conditions including Pneumonia, Cardiomegaly, Atelectasis, and 11 other thoracic abnormalities, making it a valuable tool for medical professionals and researchers in radiological diagnosis.",
-    image: "/project_images/x-ray/homepage.png",
+    image: "/project_cover_images/KurdRay.jpeg",
     screenshots: [
       "/project_images/x-ray/homepage.png",
       "/project_images/x-ray/analyzepage.png",
