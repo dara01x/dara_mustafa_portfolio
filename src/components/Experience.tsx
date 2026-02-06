@@ -4,22 +4,47 @@ import { Calendar, MapPin, Building } from "lucide-react";
 
 const experiences = [
   {
+    company: "Vonex Labs",
+    position: "Lead Software Developer",
+    period: "February 2026 – Present",
+    location: "Duhok, Iraq",
+    type: "Full-time",
+    achievements: [
+      "Led a team of software engineers to deliver high-quality software solutions on time.",
+      "Implemented agile best practices, coordinated with design teams to boost productivity and code quality."
+    ],
+    technologies: ["Team Leadership", "Agile", "React", "Node.js", "System Architecture", "Code Review"],
+    current: true
+  },
+  {
+    company: "Da Vinci International School",
+    position: "AI Instructor",
+    period: "January 2026 – Present",
+    location: "Duhok, Iraq",
+    type: "Part-time",
+    achievements: [
+      "Taught students aged 15–18 core AI concepts and practical AI use, including how models learn from data, how to evaluate and verify outputs, and how to use AI responsibly and safely."
+    ],
+    technologies: ["AI Literacy", "Machine Learning", "Responsible AI", "Python"],
+    current: true
+  },
+  {
     company: "Algorithmic International School",
-    position: "Programming Instructor",
+    position: "Tech Instructor",
     period: "September 2025 – Present",
     location: "Duhok, Iraq",
     type: "Part-time",
     achievements: [
-      "I teach Visual Programming, Python, and Frontend Development through project-based learning",
+      "I teach AI, Visual Programming, and Python through project-based learning",
       "I mentor students to build problem-solving, coding, and creativity skills."
     ],
-    technologies: ["Python", "AI/ML", "React", "JavaScript", "Game Development", "Digital Literacy"],
+    technologies: ["Python", "AI/ML", "Visual Programming", "JavaScript", "Project-Based Learning"],
     current: true
   },
   {
     company: "Saziware Company",
     position: "Software Developer",
-    period: "July 2024 – Present",
+    period: "July 2021 – January 2026",
     location: "Duhok, Iraq",
     type: "Full-time",
     achievements: [
@@ -27,12 +52,12 @@ const experiences = [
       "Translated UI/UX designs into functional interfaces with 92% accuracy."
     ],
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "TypeScript"],
-    current: true
+    current: false
   },
   {
     company: "Lelav Company",
-    position: "Full-Stack Web Developer",
-    period: "February 2024 – June 2024",
+    position: "Full-Stack Web Developer Intern",
+    period: "February 2021 – June 2021",
     location: "Duhok, Iraq",
     type: "Internship",
     achievements: [
@@ -40,19 +65,6 @@ const experiences = [
       "Achieved 100% of sprint goals, contributing to on-time product releases."
     ],
     technologies: ["React", "PHP", "MySQL", "REST APIs", "CSS3"],
-    current: false
-  },
-  {
-    company: "Zeronex Agency",
-    position: "Junior Software Developer",
-    period: "December 2020 – December 2023",
-    location: "Duhok, Iraq",
-    type: "Full-time",
-    achievements: [
-      "Maintained and modernized legacy systems, ensuring continuous stability.",
-      "Implemented performance upgrades that improved scalability and reduced downtime."
-    ],
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL", "jQuery"],
     current: false
   },
   {

@@ -91,7 +91,7 @@ export const Hero = () => {
                   </span>
                 </h1>
                 <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-foreground mt-2">
-                  Full Stack Developer
+                  Software Developer
                 </h2>
               </div>
               

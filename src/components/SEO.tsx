@@ -9,9 +9,9 @@ interface SEOProps {
 }
 
 export const SEO = ({
-  title = "Dara Mustafa Saleem - Full Stack Developer | React, TypeScript, Node.js",
-  description = "Full-stack developer experienced in building scalable, user-focused web applications. Skilled in modern frontend and backend technologies, API integration, and clean, maintainable code. Strong contributor to agile teams, delivering reliable, production-ready solutions.",
-  keywords = "Dara Mustafa, Full Stack Developer, React Developer, TypeScript, Node.js, JavaScript, Python, Web Developer, Frontend, Backend, Duhok Iraq, Portfolio, AI/ML, PyTorch, Next.js",
+  title = "Dara Mustafa Saleem - Software Developer | React, TypeScript, Node.js",
+  description = "Software developer experienced in building scalable, user-focused web applications. Skilled in modern frontend and backend technologies, API integration, and clean, maintainable code. Strong contributor to agile teams, delivering reliable, production-ready solutions.",
+  keywords = "Dara Mustafa, Software Developer, React Developer, TypeScript, Node.js, JavaScript, Python, Web Developer, Frontend, Backend, Duhok Iraq, Portfolio, AI/ML, PyTorch, Next.js",
   ogImage = "/og%20image.png",
   canonicalUrl = "https://daramustafa.dev/"
 }: SEOProps) => {
