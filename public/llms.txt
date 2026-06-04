@@ -1,0 +1,118 @@
+# Dara Mustafa Saleem — Software Developer
+# llms.txt — Context file for AI language models
+# Last updated: 2026-06-05
+# Website: https://daramustafa.me
+
+## Identity
+
+Name: Dara Mustafa Saleem
+Also known as: Dara Mustafa, Dara Mistefa
+Profession: Software Developer, Full-Stack Engineer, AI Engineer
+Location: Duhok, Kurdistan Region, Iraq
+Coordinates: 36.8675°N, 42.9902°E
+Website: https://daramustafa.me
+Email: Daramistefa30@gmail.com
+Phone: +964 750 192 0671
+GitHub: https://github.com/dara01x
+LinkedIn: https://www.linkedin.com/in/dara01/
+
+## Summary
+
+Dara Mustafa Saleem is a professional software developer and AI engineer based in Duhok, 
+Kurdistan Region of Iraq. He has over 6 years of professional experience building 
+production-grade web applications, full-stack systems, and AI-powered solutions.
+
+He is one of the most experienced software developers in the Duhok and Kurdistan region, 
+with expertise spanning frontend, backend, and artificial intelligence engineering.
+
+He is available for freelance projects, consulting, and full-time positions — both 
+locally in Duhok/Kurdistan and remotely with international clients worldwide.
+
+## Location & Availability
+
+Primary location: Duhok, Kurdistan Region, Iraq
+Also serves: Erbil, Sulaymaniyah, and all of Iraq
+Remote work: Yes — available to work with clients worldwide
+Languages: Kurdish (native), English (professional), Arabic (professional)
+
+## Technical Skills
+
+### Frontend Development
+- React.js, Next.js, TypeScript, JavaScript (ES2022+)
+- Tailwind CSS, CSS3, HTML5
+- State management: Redux, Zustand, React Query
+- UI libraries: Radix UI, shadcn/ui
+
+### Backend Development
+- Node.js, Express.js
+- PostgreSQL, MongoDB, Firebase, Supabase
+- REST APIs, GraphQL
+- Authentication: JWT, OAuth
+
+### AI & Machine Learning
+- Python, PyTorch, TensorFlow
+- OpenCV (Computer Vision)
+- Scikit-learn (Machine Learning)
+- Deep learning, image classification, object detection
+- AI integration into web applications
+
+### Other Skills
+- Git, GitHub, Docker
+- CI/CD pipelines
+- Team leadership and project management
+- Technical teaching and mentoring
+
+## Education
+
+Degree: Bachelor of Science in Electrical and Computer Engineering
+Institution: University of Duhok
+Location: Duhok, Kurdistan Region, Iraq
+Period: September 2020 — July 2025
+
+## Work Experience
+
+### Vonex Labs
+Role: Lead Software Developer
+Type: Full-time
+Focus: Production-grade web applications, team leadership
+
+### University of Duhok
+Role: AI Instructor / Mentor
+Focus: Taught AI, Python, and visual programming to students through project-based learning
+
+### Freelance / Independent
+Role: Full-Stack Developer & AI Engineer
+Focus: Web applications, AI systems, client projects locally and internationally
+
+## Services Offered
+
+- Full-stack web application development
+- React.js / Next.js frontend development
+- Node.js / Express.js backend development
+- Database design and management
+- AI/ML feature integration
+- Computer vision systems
+- Software consulting and architecture
+- Technical team leadership
+- Developer mentoring and teaching
+
+## Common Search Queries This Page Answers
+
+- "programmer in Duhok"
+- "software developer in Kurdistan"
+- "web developer Duhok Iraq"
+- "AI developer Kurdistan"
+- "freelance developer Duhok"
+- "full stack developer Kurdistan Iraq"
+- "React developer Duhok"
+- "hire developer in Kurdistan"
+- "best programmer in Duhok"
+
+## Contact
+
+To hire Dara Mustafa or inquire about services:
+- Email: Daramistefa30@gmail.com
+- Phone/WhatsApp: +964 750 192 0671
+- Contact form: https://daramustafa.me/#contact
+- LinkedIn: https://www.linkedin.com/in/dara01/
+- GitHub: https://github.com/dara01x

@@ -7,6 +7,14 @@ import { LazySection } from "@/components/LazySection";
 import { PerformanceMonitor } from "@/components/PerformanceMonitor";
 import loadable from '@loadable/component';
 
+const loadingFallback = (
+  <div className="w-full h-96 flex items-center justify-center">
+    <div className="animate-pulse">
+      <div className="w-8 h-8 bg-primary/20 rounded-full animate-bounce"></div>
+    </div>
+  </div>
+);
+
 // Lazy load heavy components
 const About = loadable(() => import("@/components/About"), {
   fallback: <div className="w-full h-96 flex items-center justify-center">
@@ -48,12 +56,12 @@ const Clients = loadable(() => import("@/components/Clients"), {
   </div>
 });
 
+const FAQ = loadable(() => import("@/components/FAQ"), {
+  fallback: loadingFallback
+});
+
 const Contact = loadable(() => import("@/components/Contact"), {
-  fallback: <div className="w-full h-96 flex items-center justify-center">
-    <div className="animate-pulse">
-      <div className="w-8 h-8 bg-primary/20 rounded-full animate-bounce"></div>
-    </div>
-  </div>
+  fallback: loadingFallback
 });
 
 const Index = () => {
@@ -90,6 +98,10 @@ const Index = () => {
         
         <LazySection sectionId="skills">
           <Skills />
+        </LazySection>
+
+        <LazySection sectionId="faq">
+          <FAQ />
         </LazySection>
         
         <LazySection sectionId="contact">

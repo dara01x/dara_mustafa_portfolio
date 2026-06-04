@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# Search Engine Crawlers
+# Traditional Search Engine Crawlers
 User-agent: Googlebot
 Allow: /
 
@@ -18,7 +18,56 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
-# Sitemap location (update this with your actual domain)
+# ============================================
+# AI SEARCH ENGINE CRAWLERS — Explicitly Allow
+# ============================================
+
+# OpenAI / ChatGPT Search
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Gemini & AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Amazon Alexa / Alexa Web Crawler
+User-agent: Amazonbot
+Allow: /
+
+# Apple Applebot (Siri)
+User-agent: Applebot
+Allow: /
+
+# Microsoft Copilot (Bing AI)
+User-agent: bingbot
+Allow: /
+
+# Sitemap location
 Sitemap: https://daramustafa.me/sitemap.xml
 
 # Crawl-delay

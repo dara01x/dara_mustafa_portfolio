@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
-    <!-- Homepage -->
+    <!-- Homepage — Primary AEO landing page -->
     <url>
         <loc>https://daramustafa.me/</loc>
         <lastmod>2026-06-05</lastmod>
@@ -12,14 +12,23 @@
         <priority>1.0</priority>
     </url>
     
-    <!-- Portfolio Sections (if you want them to be individually indexed) -->
+    <!-- About Section -->
     <url>
         <loc>https://daramustafa.me/#about</loc>
         <lastmod>2026-06-05</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- FAQ Section — High AEO value -->
+    <url>
+        <loc>https://daramustafa.me/#faq</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
     </url>
     
+    <!-- Experience Section -->
     <url>
         <loc>https://daramustafa.me/#experience</loc>
         <lastmod>2026-06-05</lastmod>
@@ -27,6 +36,7 @@
         <priority>0.8</priority>
     </url>
     
+    <!-- Projects Section -->
     <url>
         <loc>https://daramustafa.me/#projects</loc>
         <lastmod>2026-06-05</lastmod>
@@ -34,6 +44,7 @@
         <priority>0.9</priority>
     </url>
     
+    <!-- Skills Section -->
     <url>
         <loc>https://daramustafa.me/#skills</loc>
         <lastmod>2026-06-05</lastmod>
@@ -41,6 +52,7 @@
         <priority>0.7</priority>
     </url>
     
+    <!-- Contact Section -->
     <url>
         <loc>https://daramustafa.me/#contact</loc>
         <lastmod>2026-06-05</lastmod>

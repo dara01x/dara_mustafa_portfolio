@@ -9,9 +9,9 @@ interface SEOProps {
 }
 
 export const SEO = ({
-  title = "Dara Mustafa Saleem - Software Developer | Full-Stack & AI",
-  description = "Software Developer with 6+ years of experience building production-grade web applications and AI-powered systems. Full-stack expertise from React frontends to deep learning pipelines with hands-on team leadership and teaching.",
-  keywords = "Dara Mustafa Saleem, Software Developer, Full Stack, React, Next.js, TypeScript, JavaScript, Python, Node.js, Express.js, PostgreSQL, MongoDB, Firebase, Supabase, AI, PyTorch, OpenCV, Scikit-learn, Computer Vision, Duhok Iraq, Portfolio",
+  title = "Dara Mustafa Saleem — Software Developer in Duhok, Kurdistan, Iraq | Full-Stack & AI",
+  description = "Dara Mustafa Saleem is a software developer based in Duhok, Kurdistan Region of Iraq, with 6+ years of experience building web applications and AI-powered systems. Available for freelance and full-time projects locally and internationally.",
+  keywords = "Dara Mustafa Saleem, programmer Duhok, software developer Duhok, developer Kurdistan, web developer Iraq, full stack developer Duhok, AI developer Kurdistan, React developer Duhok, freelance developer Kurdistan, Next.js, TypeScript, JavaScript, Python, Node.js, Express.js, PostgreSQL, MongoDB, Firebase, Supabase, PyTorch, OpenCV, Computer Vision, Duhok Iraq, Kurdistan Region",
   ogImage = "/og%20image.png",
   canonicalUrl = "https://daramustafa.me/"
 }: SEOProps) => {
