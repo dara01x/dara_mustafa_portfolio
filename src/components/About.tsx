@@ -5,23 +5,23 @@ export const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: "5+ Years Experience",
-      description: "Delivering production-ready web apps, AI-powered tools, and scalable backend systems."
+      title: "6+ Years Experience",
+      description: "Building production-grade web applications and AI-powered systems."
     },
     {
       icon: Rocket,
-      title: "Full-Stack Expertise",
-      description: "Proficient in JavaScript, TypeScript, Python, SQL, React, Node.js, Express.js, and databases."
+      title: "Full-Stack + AI",
+      description: "React and Next.js frontends, Node and Express backends, and deep learning pipelines."
     },
     {
       icon: Users,
-      title: "Agile Development",
-      description: "Experienced in collaborative, sprint-based development with clean code practices."
+      title: "Leadership & Teaching",
+      description: "Led teams and taught AI, Python, and visual programming through project-based learning."
     },
     {
       icon: Trophy,
-      title: "AI & Machine Learning",
-      description: "Hands-on with computer vision, face recognition, and integrating AI models into real apps."
+      title: "Reliable Delivery",
+      description: "Consistent track record of shipping impactful, dependable software."
     }
   ];
 
@@ -49,38 +49,38 @@ export const About = () => {
                   <div className="relative bg-gradient-to-br from-card/90 to-muted/40 dark:from-card/50 dark:to-muted/20 rounded-xl p-6 border border-border/50 backdrop-blur-sm">
                     <div className="absolute inset-0 bg-gradient-primary/5 rounded-xl"></div>
                     <p className="text-base sm:text-lg leading-relaxed text-muted-foreground relative z-10 font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                      With <span className="text-primary font-bold">5+ years of experience</span> in software development, I specialize in:
+                      With <span className="text-primary font-bold">6+ years of experience</span> in software development, I specialize in:
                     </p>
                     
                     <div className="mt-4 space-y-3 relative z-10">
                       <div className="flex items-start gap-3">
                         <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-sm sm:text-base  font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                          Developing modern applications using <span className="text-accent font-bold ">JavaScript, TypeScript, and Python</span>
+                          Building modern applications with <span className="text-accent font-bold ">JavaScript, TypeScript, Python, PHP, and SQL</span>
                         </p>
                       </div>
                       <div className="flex items-start gap-3">
                         <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-sm sm:text-base  font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                          Building scalable web platforms with <span className="text-accent font-bold ">React, Node.js, Express.js, MongoDB, and PostgreSQL</span>
+                          Creating responsive interfaces with <span className="text-accent font-bold ">React, Next.js, and Tailwind CSS</span>
                         </p>
                       </div>
                       <div className="flex items-start gap-3">
                         <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-sm sm:text-base  font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                          Integrating <span className="text-primary font-bold ">AI/ML solutions</span> such as computer vision and face recognition into real-world projects
+                          Developing scalable backends with <span className="text-primary font-bold ">Node.js, Express.js, PostgreSQL, MongoDB, Firebase, and Supabase</span>
                         </p>
                       </div>
                       <div className="flex items-start gap-3">
                         <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-sm sm:text-base  font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                          Designing and deploying <span className="text-primary font-bold ">API-driven systems</span> and cloud-integrated applications
+                          Designing <span className="text-primary font-bold ">AI/ML pipelines</span> with PyTorch, OpenCV, and Scikit-learn for computer vision
                         </p>
                       </div>
                       <div className="flex items-start gap-3">
                         <div className="w-2 h-2 bg-gradient-primary rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-sm sm:text-base  font-normal" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                          Creating seamless frontend experiences with <span className="text-primary font-bold ">React, Tailwind CSS, and Framer Motion</span>
+                          Leading teams and mentoring students in <span className="text-primary font-bold ">AI and software development</span>
                         </p>
                       </div>
                     </div>
@@ -91,8 +91,8 @@ export const About = () => {
               <div className="bg-gradient-secondary/10 rounded-lg p-4 sm:p-6 border border-accent/20 mx-2 sm:mx-0">
                 <h3 className="text-lg sm:text-xl font-semibold text-accent mb-2">Education</h3>
                 <p className="text-sm sm:text-base text-foreground/80">
-                  <strong>B.Sc. Electrical & Computer Engineering</strong><br />
-                  University of Duhok, September 2020 – 2025
+                  <strong>B.Sc. in Electrical and Computer Engineering</strong><br />
+                  University of Duhok, September 2020 – July 2025
                 </p>
               </div>
               

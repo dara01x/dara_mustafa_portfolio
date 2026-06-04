@@ -98,8 +98,7 @@ export const Hero = () => {
               <div className="animate-fade-up space-y-4" style={{ animationDelay: "0.2s" }}>
                 
                 <p className="text-sm sm:text-lg text-muted-foreground/80 leading-relaxed max-w-xl mx-auto lg:mx-0">
-                                    Creating digital solutions with modern web technologies, AI integration, and cloud-native architectures.
-Passionate about building scalable applications and solve real-world problems.
+                  Software Developer with 6+ years of experience building production-grade web applications and AI-powered systems. Combines full-stack expertise from React frontends to deep learning pipelines with hands-on team leadership and a passion for teaching AI.
                 </p>
               </div>
 

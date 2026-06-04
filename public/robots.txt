@@ -19,7 +19,7 @@ User-agent: LinkedInBot
 Allow: /
 
 # Sitemap location (update this with your actual domain)
-Sitemap: https://daramustafa.dev/sitemap.xml
+Sitemap: https://daramustafa.me/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

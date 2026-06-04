@@ -6,10 +6,10 @@ export const StructuredData = () => {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Dara Mustafa Saleem",
-      "url": "https://daramustafa.dev",
-      "image": "https://daramustafa.dev/og%20image.png",
-      "jobTitle": "Full Stack Developer",
-      "description": "Experienced Full Stack Developer specializing in React, TypeScript, Node.js, and modern web technologies.",
+      "url": "https://daramustafa.me",
+      "image": "https://daramustafa.me/og%20image.png",
+      "jobTitle": "Lead Software Developer",
+      "description": "Software Developer with 6+ years of experience building production-grade web applications and AI-powered systems.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Duhok",
@@ -23,9 +23,21 @@ export const StructuredData = () => {
       ],
       "knowsAbout": [
         "React",
+        "Next.js",
         "TypeScript",
         "JavaScript",
+        "Python",
         "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Firebase",
+        "Supabase",
+        "PyTorch",
+        "OpenCV",
+        "Scikit-learn",
+        "AI",
+        "Computer Vision",
         "Full Stack Development",
         "Frontend Development",
         "Backend Development",
@@ -33,7 +45,7 @@ export const StructuredData = () => {
       ],
       "worksFor": {
         "@type": "Organization",
-        "name": "Freelance"
+        "name": "Vonex Labs"
       }
     };
 

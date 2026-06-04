@@ -11,21 +11,9 @@ const experiences = [
     type: "Full-time",
     achievements: [
       "Led a team of software engineers to deliver high-quality software solutions on time.",
-      "Implemented agile best practices, coordinated with design teams to boost productivity and code quality."
+      "Implemented agile best practices and coordinated with design teams to boost productivity and code quality."
     ],
     technologies: ["Team Leadership", "Agile", "React", "Node.js", "System Architecture", "Code Review"],
-    current: true
-  },
-  {
-    company: "Da Vinci International School",
-    position: "AI Instructor",
-    period: "January 2026 – Present",
-    location: "Duhok, Iraq",
-    type: "Part-time",
-    achievements: [
-      "Taught students aged 15–18 core AI concepts and practical AI use, including how models learn from data, how to evaluate and verify outputs, and how to use AI responsibly and safely."
-    ],
-    technologies: ["AI Literacy", "Machine Learning", "Responsible AI", "Python"],
     current: true
   },
   {
@@ -35,11 +23,23 @@ const experiences = [
     location: "Duhok, Iraq",
     type: "Part-time",
     achievements: [
-      "I teach AI, Visual Programming, and Python through project-based learning",
-      "I mentor students to build problem-solving, coding, and creativity skills."
+      "Teach AI, Visual Programming, and Python through project-based learning.",
+      "Mentor students to build problem-solving, coding, and creativity skills."
     ],
     technologies: ["Python", "AI/ML", "Visual Programming", "JavaScript", "Project-Based Learning"],
     current: true
+  },
+  {
+    company: "Da Vinci International School",
+    position: "AI Instructor",
+    period: "January 2026 – June 2026",
+    location: "Duhok, Iraq",
+    type: "Part-time",
+    achievements: [
+      "Taught students aged 15-18 core AI concepts and practical AI use, including how models learn from data, how to evaluate and verify outputs, and how to use AI responsibly and safely."
+    ],
+    technologies: ["AI Literacy", "Machine Learning", "Responsible AI", "Python"],
+    current: false
   },
   {
     company: "Saziware Company",
@@ -95,7 +95,7 @@ export const Experience = () => {
               </span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
-              My journey from intern to senior developer, building scalable solutions across various industries
+              Developer and instructor roles across software engineering and AI, from internship to leadership
             </p>
           </div>
 

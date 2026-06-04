@@ -15,27 +15,35 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
-    slug: "face-recognition-attendance-system",
-    title: "Face Recognition Attendance System",
-    description: "A facial recognition system to automate attendance using computer vision.",
-    longDescription: "This comprehensive attendance management system leverages cutting-edge computer vision and machine learning technologies to automate the attendance tracking process. Built with Python and Flask, it provides real-time face recognition capabilities with high accuracy, making it ideal for educational institutions and corporate environments. The system includes an intuitive admin dashboard for managing attendance records, generating reports, and monitoring system performance.",
-    image: "/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp",
+    slug: "hivi-hospital-management",
+    title: "Hivi Hospital Management System",
+    description: "Hospital system for patient care, rare diseases, inventory, and reporting.",
+    longDescription: "Hivi Hospital Management System is a full-featured healthcare platform designed to revolutionize hospital operations and patient care. Built with React 18, TypeScript, and Firebase, it provides specialized management for rare diseases including Gaucher, Pompe, Fabry, and MPS variants I-VII. The system features an intuitive role-based interface with five user roles (Admin, Doctor, Nurse, Receptionist, Pharmacist), complete bilingual support (English/Arabic with RTL), and comprehensive patient management including medical history, visit tracking, and dose administration. Advanced features include automated doctor notifications for upcoming visits, detailed analytics dashboard, audit logs for complete system activity tracking, inventory management, and professional PDF report generation. The system implements HIPAA-ready architecture with Firebase Authentication and granular permission controls, making it ideal for hospitals managing complex treatment protocols and rare disease care.",
+    image: "/project_images/hivi-hospital/homepage.png",
     screenshots: [
-      "/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp"
+      "/project_images/hivi-hospital/homepage.png",
+      "/project_images/hivi-hospital/patientpage.png",
+      "/project_images/hivi-hospital/deses page.png",
+      "/project_images/hivi-hospital/inventory.png",
+      "/project_images/hivi-hospital/logs.png"
     ],
-    technologies: ["Python", "Flask", "OpenCV", "Scikit-learn", "HTML/CSS", "SQLite"],
+    technologies: ["React 18", "TypeScript", "Firebase", "Firestore", "Vite", "Tailwind CSS", "shadcn/ui", "Recharts", "React Router"],
     features: [
-      "Real-time face recognition with high accuracy",
-      "Automated attendance tracking and reporting",
-      "Admin dashboard for attendance management",
-      "Machine learning algorithms for face detection",
-      "SQLite database for data persistence",
-      "Comprehensive attendance reports and analytics"
+      "Complete patient management with medical history, imaging, and visit tracking",
+      "Specialized rare disease protocols (Gaucher, Pompe, Fabry, MPS I-VII)",
+      "Role-based access control with 5 user roles and granular permissions",
+      "Automated doctor notifications with color-coded urgency (1-3 days)",
+      "Bilingual support (English/Arabic) with full RTL layout",
+      "Advanced analytics dashboard with real-time hospital operations data",
+      "Complete audit logs system tracking all user activities",
+      "Inventory management with low stock alerts and expiry tracking",
+      "Professional PDF report generation and Excel export",
+      "Medical image storage (X-Ray, MRI, CT, Ultrasound)"
     ],
-    github: "https://github.com/dara01x/Face-Recognition-Based-Attendance-System",
-    demo: null,
-    type: "AI/ML",
-    status: "Completed"
+    github: null,
+    demo: "https://hivi-hospital-management.web.app/",
+    type: "Full-Stack",
+    status: "Production"
   },
   {
     slug: "kurdray-xray-detection",
@@ -68,37 +76,6 @@ export const projectsData: Project[] = [
     status: "Completed"
   },
   {
-    slug: "hivi-hospital-management",
-    title: "Hivi Hospital Management System",
-    description: "Hospital system for patient care, rare diseases, inventory, and reporting.",
-    longDescription: "Hivi Hospital Management System is a full-featured healthcare platform designed to revolutionize hospital operations and patient care. Built with React 18, TypeScript, and Firebase, it provides specialized management for rare diseases including Gaucher, Pompe, Fabry, and MPS variants I-VII. The system features an intuitive role-based interface with five user roles (Admin, Doctor, Nurse, Receptionist, Pharmacist), complete bilingual support (English/Arabic with RTL), and comprehensive patient management including medical history, visit tracking, and dose administration. Advanced features include automated doctor notifications for upcoming visits, detailed analytics dashboard, audit logs for complete system activity tracking, inventory management, and professional PDF report generation. The system implements HIPAA-ready architecture with Firebase Authentication and granular permission controls, making it ideal for hospitals managing complex treatment protocols and rare disease care.",
-    image: "/project_images/hivi-hospital/homepage.png",
-    screenshots: [
-      "/project_images/hivi-hospital/homepage.png",
-      "/project_images/hivi-hospital/patientpage.png",
-      "/project_images/hivi-hospital/deses page.png",
-      "/project_images/hivi-hospital/inventory.png",
-      "/project_images/hivi-hospital/logs.png"
-    ],
-    technologies: ["React 18", "TypeScript", "Firebase", "Firestore", "Vite", "Tailwind CSS", "shadcn/ui", "Recharts", "React Router"],
-    features: [
-      "Complete patient management with medical history, imaging, and visit tracking",
-      "Specialized rare disease protocols (Gaucher, Pompe, Fabry, MPS I-VII)",
-      "Role-based access control with 5 user roles and granular permissions",
-      "Automated doctor notifications with color-coded urgency (1-3 days)",
-      "Bilingual support (English/Arabic) with full RTL layout",
-      "Advanced analytics dashboard with real-time hospital operations data",
-      "Complete audit logs system tracking all user activities",
-      "Inventory management with low stock alerts and expiry tracking",
-      "Professional PDF report generation and Excel export",
-      "Medical image storage (X-Ray, MRI, CT, Ultrasound)"
-    ],
-    github: null,
-    demo: "https://hivi-hospital-management.web.app/",
-    type: "Full-Stack",
-    status: "Production"
-  },
-  {
     slug: "fastaqar-portal-v2",
     title: "Fast Aqar",
     description: "Real estate portal for property/project management with Mapbox mapping.",
@@ -127,6 +104,29 @@ export const projectsData: Project[] = [
     status: "Completed"
   },
   {
+    slug: "face-recognition-attendance-system",
+    title: "Face Recognition Attendance System",
+    description: "A facial recognition system to automate attendance using computer vision.",
+    longDescription: "This comprehensive attendance management system leverages cutting-edge computer vision and machine learning technologies to automate the attendance tracking process. Built with Python and Flask, it provides real-time face recognition capabilities with high accuracy, making it ideal for educational institutions and corporate environments. The system includes an intuitive admin dashboard for managing attendance records, generating reports, and monitoring system performance.",
+    image: "/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp",
+    screenshots: [
+      "/project_images/What-Is-a-Facial-Recognition-Attendance-System-1024x576.webp"
+    ],
+    technologies: ["Python", "Flask", "OpenCV", "Scikit-learn", "HTML/CSS", "SQLite"],
+    features: [
+      "Real-time face recognition with high accuracy",
+      "Automated attendance tracking and reporting",
+      "Admin dashboard for attendance management",
+      "Machine learning algorithms for face detection",
+      "SQLite database for data persistence",
+      "Comprehensive attendance reports and analytics"
+    ],
+    github: "https://github.com/dara01x/Face-Recognition-Based-Attendance-System",
+    demo: null,
+    type: "AI/ML",
+    status: "Completed"
+  },
+  {
     slug: "invonest-invoice-generator",
     title: "Invonest – Professional Invoice Generator",
     description: "A free invoice generator supporting English, Arabic, and Kurdish with full RTL/LTR formatting.",
@@ -149,52 +149,5 @@ export const projectsData: Project[] = [
     demo: "https://invonest.me/",
     type: "Full-Stack",
     status: "Production"
-  },
-  {
-    slug: "brainwave-saas-landing-page",
-    title: "Brainwave – SaaS Landing Page",
-    description: "Modern, animated SaaS homepage design with performance optimization and stunning visual effects. Built with React and enhanced with smooth animations.",
-    longDescription: "Brainwave is a cutting-edge SaaS landing page that showcases modern web design principles and advanced animation techniques. Built with React and TypeScript, it features smooth scroll animations powered by Framer Motion, creating an engaging and immersive user experience. The project demonstrates best practices in responsive design, performance optimization, and component-based architecture.",
-    image: "/project_images/brainwave.png",
-    screenshots: [
-      "/project_images/brainwave.png"
-    ],
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    features: [
-      "Modern SaaS design patterns and aesthetics",
-      "Smooth scroll animations and transitions",
-      "Fully responsive layout for all devices",
-      "Performance optimized with code splitting",
-      "Interactive UI components",
-      "Clean and maintainable codebase"
-    ],
-    github: "https://github.com/dara01x/Brainwave",
-    demo: "https://brainwave-ecru-six.vercel.app/",
-    type: "Frontend",
-    status: "Completed"
-  },
-  {
-    slug: "business-lounge-cafe-menu",
-    title: "Business Lounge Café – Digital Menu",
-    description: "An elegant digital menu for a premium café, featuring sections for beverages, desserts, and hookah options.",
-    longDescription: "Designed for Business Lounge Café, this sophisticated digital menu provides an immersive browsing experience for customers. The application features an elegant, mobile-first design that showcases the café's premium offerings including beverages, desserts, and hookah options. Built with React and Tailwind CSS, it ensures seamless navigation and fast loading times across all devices, enhancing the customer experience with modern web technologies.",
-    image: "/project_images/menu.png",
-    screenshots: [
-      "/project_images/menu.png",
-      "/project_images/full-page.png"
-    ],
-    technologies: ["React", "Tailwind CSS", "JavaScript"],
-    features: [
-      "Interactive menu system for beverages, desserts, and hookah",
-      "Sophisticated UI/UX for premium customer experience",
-      "Mobile-first performance optimization",
-      "Seamless navigation on all devices",
-      "Fast loading times with optimized assets",
-      "Modern and elegant design aesthetic"
-    ],
-    github: null,
-    demo: "https://dara01x.github.io/business-lounge-cafe-menu/",
-    type: "Frontend",
-    status: "Completed"
   }
 ];

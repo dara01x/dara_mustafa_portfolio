@@ -9,11 +9,11 @@ interface SEOProps {
 }
 
 export const SEO = ({
-  title = "Dara Mustafa Saleem - Software Developer | React, TypeScript, Node.js",
-  description = "Software developer experienced in building scalable, user-focused web applications. Skilled in modern frontend and backend technologies, API integration, and clean, maintainable code. Strong contributor to agile teams, delivering reliable, production-ready solutions.",
-  keywords = "Dara Mustafa, Software Developer, React Developer, TypeScript, Node.js, JavaScript, Python, Web Developer, Frontend, Backend, Duhok Iraq, Portfolio, AI/ML, PyTorch, Next.js",
+  title = "Dara Mustafa Saleem - Software Developer | Full-Stack & AI",
+  description = "Software Developer with 6+ years of experience building production-grade web applications and AI-powered systems. Full-stack expertise from React frontends to deep learning pipelines with hands-on team leadership and teaching.",
+  keywords = "Dara Mustafa Saleem, Software Developer, Full Stack, React, Next.js, TypeScript, JavaScript, Python, Node.js, Express.js, PostgreSQL, MongoDB, Firebase, Supabase, AI, PyTorch, OpenCV, Scikit-learn, Computer Vision, Duhok Iraq, Portfolio",
   ogImage = "/og%20image.png",
-  canonicalUrl = "https://daramustafa.dev/"
+  canonicalUrl = "https://daramustafa.me/"
 }: SEOProps) => {
   useEffect(() => {
     // Update document title

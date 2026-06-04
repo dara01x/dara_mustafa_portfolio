@@ -346,7 +346,7 @@ export const Contact = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center">
             <p className="text-xs sm:text-sm text-muted-foreground">
-              © 2025 Dara Mustafa Saleem.
+              © 2026 Dara Mustafa Saleem.
             </p>
           </div>
         </div>
