@@ -56,10 +56,6 @@ const Clients = loadable(() => import("@/components/Clients"), {
   </div>
 });
 
-const FAQ = loadable(() => import("@/components/FAQ"), {
-  fallback: loadingFallback
-});
-
 const Contact = loadable(() => import("@/components/Contact"), {
   fallback: loadingFallback
 });
@@ -100,10 +96,6 @@ const Index = () => {
           <Skills />
         </LazySection>
 
-        <LazySection sectionId="faq">
-          <FAQ />
-        </LazySection>
-        
         <LazySection sectionId="contact">
           <Contact />
         </LazySection>
